@@ -1,16 +1,16 @@
 $(document).ready(function(){
-    var Random=Math.floor(Math.random()*101+19)
+    let Random=Math.floor(Math.random()*101+19)
    
     $('#randomNumber').text(Random);
    
 
-    var score= 0; 
-    var wins= 0;
-    var losses = 0;
-    var blue= Math.floor(Math.random()*11+1)
-    var green= Math.floor(Math.random()*11+1)
-    var red= Math.floor(Math.random()*11+1)
-    var yellow= Math.floor(Math.random()*11+1)
+    let score= 0; 
+    let wins= 0;
+    let losses = 0;
+    let blue= Math.floor(Math.random()*11+1)
+    let green= Math.floor(Math.random()*11+1)
+    let red= Math.floor(Math.random()*11+1)
+    let yellow= Math.floor(Math.random()*11+1)
    
     
     
